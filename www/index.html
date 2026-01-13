@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor HTTP - Día 5</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .info {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        .info strong {
+            color: #667eea;
+        }
+        .links {
+            margin-top: 30px;
+        }
+        .links a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 5px;
+            transition: all 0.3s;
+        }
+        .links a:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .emoji {
+            font-size: 3em;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🚀</div>
+        <h1>¡Servidor HTTP Funcionando!</h1>
+        <p>Felicidades, has creado tu propio servidor HTTP desde cero usando Python y sockets.</p>
+        
+        <div class="info">
+            <p><strong>📅 Día 5:</strong> Programación de Redes</p>
+            <p><strong>🌐 Servidor:</strong> HTTP/1.1</p>
+            <p><strong>⚡ Estado:</strong> Activo</p>
+        </div>
+        
+        <p>Este servidor puede:</p>
+        <ul style="margin-left: 30px; color: #555; line-height: 2;">
+            <li>Servir páginas HTML</li>
+            <li>Manejar archivos estáticos (CSS, JS, imágenes)</li>
+            <li>Procesar peticiones GET</li>
+            <li>Responder con códigos de estado HTTP</li>
+        </ul>
+        
+        <div class="links">
+            <a href="/about.html">Acerca de</a>
+            <a href="/contact.html">Contacto</a>
+            <a href="/api/info">API Info</a>
+        </div>
+    </div>
+</body>
+</html>
