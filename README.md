@@ -11,6 +11,14 @@ Sistema de chat cliente-servidor con Python usando sockets y threading.
 **Chat Multi-Cliente**
 - `servidor_chat.py` - Servidor que maneja múltiples usuarios simultáneamente
 - `cliente_chat.py` - Cliente de chat con envío/recepción asíncrona
+- `chat_gui.py` - Cliente de chat con interfaz gráfica
+
+**Transferencia de archivos**
+- `servidor_archivos.py` / `cliente_archivos.py` - Envío de archivos por sockets
+
+**HTTP**
+- `servidor_http.py` - Servidor HTTP básico que sirve las páginas de `www/`
+- `cliente_http.py` - Cliente que hace peticiones HTTP
 
 ## Uso
 ```bash
